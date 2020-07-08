@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14F4C6224A30572009A81EA /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = C14F4C6124A30572009A81EA /* level1.txt */; };
+		C14F4C6424A31370009A81EA /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = C14F4C6324A31370009A81EA /* level2.txt */; };
 		C1C004E424980BE4002FF3A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C004E324980BE4002FF3A3 /* AppDelegate.swift */; };
 		C1C004E624980BE4002FF3A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C004E524980BE4002FF3A3 /* SceneDelegate.swift */; };
 		C1C004E824980BE4002FF3A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C004E724980BE4002FF3A3 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C14F4C6124A30572009A81EA /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		C14F4C6324A31370009A81EA /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		C1C004E024980BE4002FF3A3 /* Seven Swifty Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seven Swifty Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C004E324980BE4002FF3A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1C004E524980BE4002FF3A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				C1C004E724980BE4002FF3A3 /* ViewController.swift */,
 				C1C004E924980BE4002FF3A3 /* Main.storyboard */,
 				C1C004EC24980BEA002FF3A3 /* Assets.xcassets */,
+				C14F4C6124A30572009A81EA /* level1.txt */,
+				C14F4C6324A31370009A81EA /* level2.txt */,
 				C1C004EE24980BEA002FF3A3 /* LaunchScreen.storyboard */,
 				C1C004F124980BEA002FF3A3 /* Info.plist */,
 			);
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14F4C6424A31370009A81EA /* level2.txt in Resources */,
 				C1C004F024980BEA002FF3A3 /* LaunchScreen.storyboard in Resources */,
+				C14F4C6224A30572009A81EA /* level1.txt in Resources */,
 				C1C004ED24980BEA002FF3A3 /* Assets.xcassets in Resources */,
 				C1C004EB24980BE4002FF3A3 /* Main.storyboard in Resources */,
 			);
@@ -293,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jelanidenis.Seven-Swifty-Words";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jelanidenis.Seven-Swifty-Words";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
